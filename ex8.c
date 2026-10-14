@@ -4,19 +4,18 @@
 main(void)
 {
 	setlocale(LC_ALL, "");
-	int NS = 0, NT = 0, N1 = 0;
+	int i = 0, NT = 0, N1 = 0;
 	
-	printf("Diz me quantos números queres somar: ");
-	scanf_s("%d", &NS);
+	printf("Diz me quantos nÃºmeros queres somar: ");
+	scanf_s("%d", &i);
 
-	while (0 < NS)
+	for ( i = i; i > 0 ; i--)
 	{
-		printf("Dá me o teu número a somar: ");
+		printf("DÃ¡ me o teu nÃºmero a somar: ");
 		scanf_s("%d", &N1);
-		NT = NT + N1;
-		NS = NS - 1;	
+		NT = NT + N1;	
 	}
 	
-	printf("O valor somado é %d", NT);
+	printf("O valor somado Ã© %d", NT);
 	return 0;
 }
