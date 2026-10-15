@@ -8,15 +8,15 @@ main(void)
 
 	while (0 != N1)
 	{
-		printf("Dá me o teu número: ");
+		printf("DÃ¡ me o teu nÃºmero: ");
 		scanf_s("%d", &N1);
 		if (N1 > 0)
 		{
-			printf("%d é um número positivo \n", N1);
+			printf("%d Ã© um nÃºmero positivo \n", N1);
 		}
-		else
+		else if (N1 != 0)
 		{
-			printf("%d é um número negativo \n", N1);
+			printf("%d Ã© um nÃºmero negativo \n", N1);
 		}
 	}
 
