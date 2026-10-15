@@ -9,7 +9,7 @@ main(void)
 	printf("Diz me quantos números queres somar: ");
 	scanf_s("%d", &i);
 
-	for ( i = i; i > 0 ; i--)
+	for ( i ; i > 0 ; i--)
 	{
 		printf("Dá me o teu número a somar: ");
 		scanf_s("%d", &N1);
