@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <locale.h>
+
 main(void)
 {
 	setlocale(LC_ALL, "");
-	int N1 = 0;
+	int N1, N2 = 1;
+
+
 	do
 	{
-		
-		printf("Dá-me um número, agora! ");
+		printf("Dá me o teu número: ");
 		scanf_s("%d", &N1);
-		if (N1 % 2 > 0)
+		if (N1 % 2 != 0)
 		{
-			printf("O número é impar.\n");
+			printf("%d é um número impar \n", N1);
 		}
 		else if (N1 != 0)
 		{
-			printf("O número é par.\n");
+		 printf("%d é um número par \n", N1);
 		}
-	} while (N1 != 0);
-	printf("Digitou zero vai sair do programa");
+	} while (0 != N1);
+
+	printf("Digitou 0 vai sair do programa.");
 	return 0;
 }
