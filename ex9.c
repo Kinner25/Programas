@@ -6,7 +6,7 @@ main(void)
 	setlocale(LC_ALL, "");
 	int N1 = 1;
 
-	do (0 != N1)
+	do
 	{
 		printf("Dá me o teu número: ");
 		scanf_s("%d", &N1);
