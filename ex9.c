@@ -18,7 +18,7 @@ main(void)
 		{
 			printf("%d é um número negativo \n", N1);
 		}
-	} while (N1 > 0)
+	} while (N1 > 0);
 
 	printf("Digitou 0 vai sair do programa.");
 	return 0;
