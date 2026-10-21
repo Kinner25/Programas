@@ -7,23 +7,16 @@ main(void)
 	int N1;
 	do
 	{
-		printf("Dá me o teu número: ");
+		printf("DÃ¡ me o teu nÃºmero: ");
 		scanf_s("%d", &N1);
-		if (N1 % 3 == 0 && N1 % 5 == 0)
+		if (N1 % 3 == 0)
 		{
-			printf("%d é um número múltiplo de 3 e 5 \n", N1);
+			printf("%d Ã© um mÃºltiplo de 3 \n", N1);
 		}
-		else if (N1 % 3 == 0)
+		
+		if (N1 % 5 == 0)
 		{
-			printf("%d é um múltiplo de 3 \n", N1);
-		}
-		else if (N1 % 5 == 0)
-		{
-			printf("%d é um múltiplo de 5 \n", N1);
-		}
-		else if (N1 != 0)
-		{
-			printf("%d não é um múltiplo de 3 nem de 5 \n", N1);
+			printf("%d Ã© um mÃºltiplo de 5 \n", N1);
 		}
 	} while (0 != N1);
 }
