@@ -18,6 +18,6 @@ main(void)
 		}
 		i++;
 	} while (N1 != N2);
-	printf("Acertaste o número era %d.", N2);
+	printf("Acertaste o número era %d, precisaste de %d tentativas", N2, i);
 	return 0;
 }
