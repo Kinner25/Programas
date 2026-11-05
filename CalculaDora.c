@@ -5,13 +5,13 @@ main(void)
 	setlocale(LC_ALL, "");
 	float N1, N2;
 	 char A;
-	printf("Queres Somar, Subtrair, Multiplicar ou Dividir? (S/s/m/d) ");
+	printf("Queres Adicionar, Subtrair, Multiplicar ou Dividir? (a/s/m/d) ");
 	scanf_s("%c", &A);
-	printf("Quais s„o os dois numeros ");
+	printf("Quais s√£o os dois numeros ");
 	scanf_s("%f", &N1);
 	scanf_s("%f", &N2);
 	switch (A) {
-	case 'S':
+	case 'a':
 		printf("%.1f + %.1f = %.1f", N1, N2, N1+N2 );
 		break;
 	case 's':
