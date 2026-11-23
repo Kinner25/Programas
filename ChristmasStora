@@ -22,7 +22,8 @@ int main(void)
 				TPes = TPes + Qtd[i][j];
 			}
 			printf("A quantidade total de trazida por %s é: %i \n", Names[i], TPes);
-			TPes = 0;
+			printf("A quantidade total trazida de %s é: %i \n",Produtos[i], Qtd[0][i] + Qtd[1][i] + Qtd[2][i]);
+            TPes = 0;
 		}
 		printf("A quantidade total de produtos é: %i \n", QtTotal);
 	}
