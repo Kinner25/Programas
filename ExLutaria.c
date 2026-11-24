@@ -20,13 +20,13 @@ main(void)
 			}
 		}
 		printf("\n%d\n", Lotaria[i]);
-		printf("\nDiz o %dº número (1-50) ", i + 1);
+		printf("\nDiz o %dÂº nÃºmero (1-50) ", i + 1);
 		scanf_s("%d", &guess[i]);
 
 		for (j = 0; j < 5; j++)
 		{
 			if (j != i && guess[i] == guess[j]) {
-				printf("\njá disseste esse número diz outra vez\n", i + 1);
+				printf("\njÃ¡ disseste esse nÃºmero diz outra vez\n", i + 1);
 				scanf_s("%d", &guess[i]);
 			}
 		}
@@ -39,12 +39,12 @@ main(void)
 
 	if (certos == 5)
 	{
-		printf("\nGanhaste 1 Milhão de bitcoin\n");
+		printf("\nGanhaste 1 MilhÃ£o de bitcoin\n");
 	}
 	else {
 		printf("\nwomp womp perdeste\n");
 	}
-	printf("Os números são ");
+	printf("Os nÃºmeros sÃ£o ");
 	for (i = 0; i < 5; i++) {
 		printf("%d ", Lotaria[i]);
 	}
